@@ -1,0 +1,2196 @@
+{
+ "url": "http://localhost:5173/",
+ "at": "2026-10-29T14:31:48.038Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 9,
+   "filled": [
+    0.24,
+    0.24,
+    0.26,
+    0.48,
+    0.28,
+    0.33,
+    0.38,
+    0.27,
+    0.36
+   ],
+   "motion": {
+    "elements": 32,
+    "css": 0,
+    "transitions": 3,
+    "scripted": 29,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 7591,
+     "screens": 8.4,
+     "words": 557,
+     "img": 4,
+     "video": 0,
+     "canvas": 1,
+     "svg": 25,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 2,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "rider_transit_editorial.jpg",
+      "merchant_pickup_editorial.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "The Living Rhythm of Last-Mile Delivery.",
+     "words": 6,
+     "chars": 40,
+     "lines": 2,
+     "size": 93.6,
+     "vw": 6.5,
+     "font": "Cormorant Garamond",
+     "weight": 300,
+     "tracking": -0.025,
+     "leading": 1.05,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.6,
+     "top": 160,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "The Living Rhythm of Last-Mile Delivery.",
+     "words": 6,
+     "lines": 2,
+     "size": 93.6,
+     "font": "Cormorant Garamond"
+    },
+    "headings": [
+     {
+      "text": "FRESKA",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Cormorant Garamond",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.09,
+      "top": 27,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "The Living Rhythm of Last-Mile Delivery.",
+      "words": 6,
+      "chars": 40,
+      "lines": 2,
+      "size": 93.6,
+      "vw": 6.5,
+      "font": "Cormorant Garamond",
+      "weight": 300,
+      "tracking": -0.025,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.6,
+      "top": 160,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Engineered for the Field. Designed for Human Dignity.",
+      "words": 8,
+      "chars": 53,
+      "lines": 2,
+      "size": 49,
+      "vw": 3.4,
+      "font": "Cormorant Garamond",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.39,
+      "top": 1012,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "A Purpose-Built Platform for Professional Couriers.",
+      "words": 6,
+      "chars": 51,
+      "lines": 2,
+      "size": 49,
+      "vw": 3.4,
+      "font": "Cormorant Garamond",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.58,
+      "top": 2184,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Direct Vendor-to-Courier Protocol",
+      "words": 3,
+      "chars": 33,
+      "lines": 2,
+      "size": 29.6,
+      "vw": 2.1,
+      "font": "Cormorant Garamond",
+      "weight": 300,
+      "tracking": -0.015,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.27,
+      "top": 2837,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "The Core Sequence of Every Shift.",
+      "words": 6,
+      "chars": 33,
+      "lines": 1,
+      "size": 49,
+      "vw": 3.4,
+      "font": "Cormorant Garamond",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.56,
+      "top": 4065,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Onboarding & Rider Identity",
+      "words": 4,
+      "chars": 27,
+      "lines": 2,
+      "size": 52,
+      "vw": 3.6,
+      "font": "Cormorant Garamond",
+      "weight": 300,
+      "tracking": -0.015,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.32,
+      "top": 4392,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Equip Your Transit.",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 49,
+      "vw": 3.4,
+      "font": "Cormorant Garamond",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.42,
+      "top": 6578,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Merchant & Fleet Partners",
+      "words": 4,
+      "chars": 25,
+      "lines": 1,
+      "size": 32,
+      "vw": 2.2,
+      "font": "Cormorant Garamond",
+      "weight": 300,
+      "tracking": -0.015,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.4,
+      "top": 7195,
+      "tag": "h3",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 9,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Plus Jakarta Sans",
+       "share": 0.86,
+       "mono": false
+      },
+      {
+       "family": "Cormorant Garamond",
+       "share": 0.14,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      22,
+      30,
+      32,
+      36,
+      49,
+      52,
+      94
+     ],
+     "sizeCount": 15,
+     "notLoaded": [],
+     "body": {
+      "font": "Plus Jakarta Sans",
+      "size": 16.8,
+      "leading": 1.7,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 10.2
+     },
+     "measureChars": 66,
+     "max": {
+      "size": 93.6,
+      "vw": 6.5,
+      "font": "Cormorant Garamond",
+      "text": "The Living Rhythm of Last-Mile Delivery."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#edece9",
+     "bodyBgHsl": {
+      "h": 45,
+      "s": 0.1,
+      "l": 0.92
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#050507",
+       "top": 3953,
+       "hsl": {
+        "h": 240,
+        "s": 0.17,
+        "l": 0.02
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#383632",
+       "share": 0.55
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.24
+      },
+      {
+       "color": "#121110",
+       "share": 0.14
+      },
+      {
+       "color": "#9e9c94",
+       "share": 0.02
+      },
+      {
+       "color": "#0a7347",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#121110",
+      "hsl": {
+       "h": 30,
+       "s": 0.06,
+       "l": 0.07
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 6,
+     "inHero": 3,
+     "radius": "pill",
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Partner App",
+      "Download Partner App",
+      "Explore Platform"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 12,
+     "boxRadius": 20,
+     "squareMedia": 1,
+     "roundedMedia": 2,
+     "mediaRadius": 20,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 6,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 2417
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "canvas",
+      "ratio": 1
+     }
+    ],
+    "nav": {
+     "links": 0,
+     "fixed": true,
+     "height": 96,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "cormorant garamond",
+     "plus jakarta sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 7591,
+    "margins": {
+     "left": 128,
+     "right": 139
+    },
+    "sections": [
+     {
+      "sel": "section#hero.section-wrapper.hero-container",
+      "tag": "section",
+      "top": 0,
+      "height": 900,
+      "words": 48,
+      "media": 0,
+      "middle": 287,
+      "heading": {
+       "text": "The Living Rhythm of Last-Mile Delivery.",
+       "size": 94,
+       "tag": "h1"
+      },
+      "left": 128,
+      "right": 150,
+      "textLeft": 128,
+      "textRight": 150,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#story.section-wrapper",
+      "tag": "section",
+      "top": 900,
+      "height": 1172,
+      "words": 159,
+      "media": 1,
+      "middle": 71,
+      "heading": {
+       "text": "Engineered for the Field. Designed for Human Digni",
+       "size": 49,
+       "tag": "h2"
+      },
+      "left": 127,
+      "right": 139,
+      "textLeft": 756,
+      "textRight": 139,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#platform.section-wrapper",
+      "tag": "section",
+      "top": 2072,
+      "height": 1817,
+      "words": 232,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "A Purpose-Built Platform for Professional Couriers",
+       "size": 49,
+       "tag": "h2"
+      },
+      "left": 127,
+      "right": 164,
+      "textLeft": 128,
+      "textRight": 164,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": true
+     },
+     {
+      "sel": "div.pin-spacer",
+      "tag": "div",
+      "top": 3953,
+      "height": 2250,
+      "words": 82,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Onboarding & Rider Identity",
+       "size": 52,
+       "tag": "h3"
+      },
+      "left": 128,
+      "right": 128,
+      "textLeft": 128,
+      "textRight": 128,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#download.section-wrapper",
+      "tag": "section",
+      "top": 6267,
+      "height": 1324,
+      "words": 110,
+      "media": 0,
+      "middle": 54,
+      "heading": {
+       "text": "Equip Your Transit.",
+       "size": 49,
+       "tag": "h2"
+      },
+      "left": 128,
+      "right": 128,
+      "textLeft": 128,
+      "textRight": 128,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 6860,
+      "height": 336
+     }
+    ],
+    "h1s": [
+     {
+      "text": "The Living Rhythm of Last-Mile Delivery.",
+      "size": 94,
+      "top": 160,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 699,
+      "n": 12
+     },
+     {
+      "x": 756,
+      "n": 9
+     },
+     {
+      "x": 128,
+      "n": 8
+     },
+     {
+      "x": 168,
+      "n": 2
+     },
+     {
+      "x": 184,
+      "n": 2
+     },
+     {
+      "x": 1050,
+      "n": 2
+     },
+     {
+      "x": 218,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 36,
+    "bodySize": 17,
+    "stage": true,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 10,
+   "filled": [
+    0.24,
+    0.04,
+    0.41,
+    0.35,
+    0.86,
+    0.46,
+    0.44,
+    0.36,
+    0.43,
+    0.48
+   ],
+   "motion": {
+    "elements": 32,
+    "css": 0,
+    "transitions": 3,
+    "scripted": 29,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 9693,
+     "screens": 9.5,
+     "words": 557,
+     "img": 4,
+     "video": 0,
+     "canvas": 1,
+     "svg": 25,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 2,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "rider_transit_editorial.jpg",
+      "merchant_pickup_editorial.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "The Living Rhythm of Last-Mile Delivery.",
+     "words": 6,
+     "chars": 40,
+     "lines": 2,
+     "size": 49.9,
+     "vw": 6.5,
+     "font": "Cormorant Garamond",
+     "weight": 300,
+     "tracking": -0.025,
+     "leading": 1.05,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.94,
+     "top": 160,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "The Living Rhythm of Last-Mile Delivery.",
+     "words": 6,
+     "lines": 2,
+     "size": 49.9,
+     "font": "Cormorant Garamond"
+    },
+    "headings": [
+     {
+      "text": "FRESKA",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Cormorant Garamond",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.16,
+      "top": 23,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "The Living Rhythm of Last-Mile Delivery.",
+      "words": 6,
+      "chars": 40,
+      "lines": 2,
+      "size": 49.9,
+      "vw": 6.5,
+      "font": "Cormorant Garamond",
+      "weight": 300,
+      "tracking": -0.025,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 160,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Engineered for the Field. Designed for Human Dignity.",
+      "words": 8,
+      "chars": 53,
+      "lines": 1,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Cormorant Garamond",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 2052,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "A Purpose-Built Platform for Professional Couriers.",
+      "words": 6,
+      "chars": 51,
+      "lines": 1,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Cormorant Garamond",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 2829,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Direct Vendor-to-Courier Protocol",
+      "words": 3,
+      "chars": 33,
+      "lines": 1,
+      "size": 29.6,
+      "vw": 3.9,
+      "font": "Cormorant Garamond",
+      "weight": 300,
+      "tracking": -0.015,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.83,
+      "top": 3631,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "The Core Sequence of Every Shift.",
+      "words": 6,
+      "chars": 33,
+      "lines": 1,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Cormorant Garamond",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 5461,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Onboarding & Rider Identity",
+      "words": 4,
+      "chars": 27,
+      "lines": 1,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Cormorant Garamond",
+      "weight": 300,
+      "tracking": -0.015,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 5781,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Equip Your Transit.",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Cormorant Garamond",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 8053,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Merchant & Fleet Partners",
+      "words": 4,
+      "chars": 25,
+      "lines": 1,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Cormorant Garamond",
+      "weight": 300,
+      "tracking": -0.015,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.76,
+      "top": 9203,
+      "tag": "h3",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 9,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Plus Jakarta Sans",
+       "share": 0.86,
+       "mono": false
+      },
+      {
+       "family": "Cormorant Garamond",
+       "share": 0.14,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      22,
+      30,
+      32,
+      36,
+      50
+     ],
+     "sizeCount": 13,
+     "notLoaded": [],
+     "body": {
+      "font": "Plus Jakarta Sans",
+      "size": 16.8,
+      "leading": 1.7,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 10.3
+     },
+     "measureChars": 86,
+     "max": {
+      "size": 49.9,
+      "vw": 6.5,
+      "font": "Cormorant Garamond",
+      "text": "The Living Rhythm of Last-Mile Delivery."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#eeede9",
+     "bodyBgHsl": {
+      "h": 48,
+      "s": 0.13,
+      "l": 0.92
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#050507",
+       "top": 5349,
+       "hsl": {
+        "h": 240,
+        "s": 0.17,
+        "l": 0.02
+       }
+      },
+      {
+       "color": "#0d0e12",
+       "top": 5733,
+       "hsl": {
+        "h": 228,
+        "s": 0.16,
+        "l": 0.06
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#383632",
+       "share": 0.55
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.24
+      },
+      {
+       "color": "#121110",
+       "share": 0.14
+      },
+      {
+       "color": "#9e9c94",
+       "share": 0.02
+      },
+      {
+       "color": "#0a7347",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#121110",
+      "hsl": {
+       "h": 30,
+       "s": 0.06,
+       "l": 0.07
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 6,
+     "inHero": 3,
+     "radius": "pill",
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Partner App",
+      "Download Partner App",
+      "Explore Platform"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 12,
+     "boxRadius": 20,
+     "squareMedia": 1,
+     "roundedMedia": 2,
+     "mediaRadius": 20,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "canvas",
+      "ratio": 1
+     }
+    ],
+    "nav": {
+     "links": 0,
+     "fixed": true,
+     "height": 88,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "cormorant garamond",
+     "plus jakarta sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 9693,
+    "margins": {
+     "left": 24,
+     "right": 30
+    },
+    "sections": [
+     {
+      "sel": "section#hero.section-wrapper.hero-container",
+      "tag": "section",
+      "top": 0,
+      "height": 1024,
+      "words": 48,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "The Living Rhythm of Last-Mile Delivery.",
+       "size": 50,
+       "tag": "h1"
+      },
+      "left": 24,
+      "right": 46,
+      "textLeft": 24,
+      "textRight": 46,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#story.section-wrapper",
+      "tag": "section",
+      "top": 1024,
+      "height": 1725,
+      "words": 159,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 22,
+      "right": 22,
+      "textLeft": 24,
+      "textRight": 30,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div",
+      "tag": "div",
+      "top": 2829,
+      "height": 126,
+      "words": 21,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "A Purpose-Built Platform for Professional Couriers",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 102,
+      "textLeft": 24,
+      "textRight": 102,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div",
+      "tag": "div",
+      "top": 3019,
+      "height": 754,
+      "words": 20,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 22,
+      "right": 22,
+      "textLeft": 64,
+      "textRight": 131,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": true
+     },
+     {
+      "sel": "div",
+      "tag": "div",
+      "top": 3845,
+      "height": 1360,
+      "words": 191,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Direct Onboarding & Identity",
+       "size": 22,
+       "tag": "h3"
+      },
+      "left": 60,
+      "right": 60,
+      "textLeft": 60,
+      "textRight": 60,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.pin-spacer",
+      "tag": "div",
+      "top": 5349,
+      "height": 2560,
+      "words": 82,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "The Core Sequence of Every Shift.",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 48,
+      "right": 67,
+      "textLeft": 48,
+      "textRight": 67,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.download-grid",
+      "tag": "div",
+      "top": 8053,
+      "height": 1014,
+      "words": 63,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Equip Your Transit.",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 84,
+      "textLeft": 24,
+      "textRight": 84,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.partner-box",
+      "tag": "div",
+      "top": 9147,
+      "height": 301,
+      "words": 31,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Merchant & Fleet Partners",
+       "size": 32,
+       "tag": "h3"
+      },
+      "left": 80,
+      "right": 108,
+      "textLeft": 80,
+      "textRight": 108,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 488,
+      "height": 432
+     },
+     {
+      "top": 8812,
+      "height": 388
+     }
+    ],
+    "h1s": [
+     {
+      "text": "The Living Rhythm of Last-Mile Delivery.",
+      "size": 50,
+      "top": 160,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 60,
+      "n": 14
+     },
+     {
+      "x": 24,
+      "n": 12
+     },
+     {
+      "x": 48,
+      "n": 2
+     },
+     {
+      "x": 80,
+      "n": 2
+     },
+     {
+      "x": 96,
+      "n": 2
+     },
+     {
+      "x": 275,
+      "n": 2
+     },
+     {
+      "x": 525,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 36,
+    "bodySize": 17,
+    "stage": true,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.35,
+    0.24,
+    0.57,
+    0.33,
+    0.84,
+    0.78,
+    0.66,
+    0.68,
+    0.64,
+    0.43,
+    0.71,
+    0.69
+   ],
+   "motion": {
+    "elements": 32,
+    "css": 0,
+    "transitions": 3,
+    "scripted": 29,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 10168,
+     "screens": 12,
+     "words": 555,
+     "img": 4,
+     "video": 0,
+     "canvas": 1,
+     "svg": 25,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 2,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "rider_transit_editorial.jpg",
+      "merchant_pickup_editorial.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "FRESKA",
+     "words": 1,
+     "chars": 6,
+     "lines": 1,
+     "size": 36,
+     "vw": 9.2,
+     "font": "Cormorant Garamond",
+     "weight": 300,
+     "tracking": -0.02,
+     "leading": 1.2,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.32,
+     "top": 23,
+     "tag": "div",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "The Living Rhythm of Last-Mile Delivery.",
+     "words": 6,
+     "lines": 2,
+     "size": 34.4,
+     "font": "Cormorant Garamond"
+    },
+    "headings": [
+     {
+      "text": "FRESKA",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Cormorant Garamond",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.32,
+      "top": 23,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "The Living Rhythm of Last-Mile Delivery.",
+      "words": 6,
+      "chars": 40,
+      "lines": 2,
+      "size": 34.4,
+      "vw": 8.8,
+      "font": "Cormorant Garamond",
+      "weight": 300,
+      "tracking": -0.025,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 160,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Engineered for the Field. Designed for Human Dignity.",
+      "words": 8,
+      "chars": 53,
+      "lines": 2,
+      "size": 29.6,
+      "vw": 7.6,
+      "font": "Cormorant Garamond",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 1400,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "A Purpose-Built Platform for Professional Couriers.",
+      "words": 6,
+      "chars": 51,
+      "lines": 2,
+      "size": 29.6,
+      "vw": 7.6,
+      "font": "Cormorant Garamond",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 2712,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Direct Vendor-to-Courier Protocol",
+      "words": 3,
+      "chars": 33,
+      "lines": 2,
+      "size": 29.6,
+      "vw": 7.6,
+      "font": "Cormorant Garamond",
+      "weight": 300,
+      "tracking": -0.015,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.67,
+      "top": 3297,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "The Core Sequence of Every Shift.",
+      "words": 6,
+      "chars": 33,
+      "lines": 2,
+      "size": 29.6,
+      "vw": 7.6,
+      "font": "Cormorant Garamond",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 6003,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Onboarding & Rider Identity",
+      "words": 4,
+      "chars": 27,
+      "lines": 2,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Cormorant Garamond",
+      "weight": 300,
+      "tracking": -0.015,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.58,
+      "top": 6136,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Equip Your Transit.",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 29.6,
+      "vw": 7.6,
+      "font": "Cormorant Garamond",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 8198,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Merchant & Fleet Partners",
+      "words": 4,
+      "chars": 25,
+      "lines": 2,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Cormorant Garamond",
+      "weight": 300,
+      "tracking": -0.015,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.59,
+      "top": 9516,
+      "tag": "h3",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 9,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 6,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Plus Jakarta Sans",
+       "share": 0.86,
+       "mono": false
+      },
+      {
+       "family": "Cormorant Garamond",
+       "share": 0.14,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      22,
+      30,
+      32,
+      34,
+      36
+     ],
+     "sizeCount": 13,
+     "notLoaded": [],
+     "body": {
+      "font": "Plus Jakarta Sans",
+      "size": 16.8,
+      "leading": 1.7,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 10.2
+     },
+     "measureChars": 41,
+     "max": {
+      "size": 36,
+      "vw": 9.2,
+      "font": "Cormorant Garamond",
+      "text": "Freska"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#edece8",
+     "bodyBgHsl": {
+      "h": 48,
+      "s": 0.12,
+      "l": 0.92
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#edece7",
+       "top": 3601,
+       "hsl": {
+        "h": 50,
+        "s": 0.14,
+        "l": 0.92
+       }
+      },
+      {
+       "color": "#050507",
+       "top": 5891,
+       "hsl": {
+        "h": 240,
+        "s": 0.17,
+        "l": 0.02
+       }
+      },
+      {
+       "color": "#0d0e12",
+       "top": 6088,
+       "hsl": {
+        "h": 228,
+        "s": 0.16,
+        "l": 0.06
+       }
+      },
+      {
+       "color": "#12131a",
+       "top": 8700,
+       "hsl": {
+        "h": 233,
+        "s": 0.18,
+        "l": 0.09
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#383632",
+       "share": 0.55
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.24
+      },
+      {
+       "color": "#121110",
+       "share": 0.14
+      },
+      {
+       "color": "#9e9c94",
+       "share": 0.03
+      },
+      {
+       "color": "#0a7347",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#121110",
+      "hsl": {
+       "h": 30,
+       "s": 0.06,
+       "l": 0.07
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 6,
+     "inHero": 3,
+     "radius": "pill",
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Partner App",
+      "Download Partner App",
+      "Explore Platform"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 12,
+     "boxRadius": 20,
+     "squareMedia": 1,
+     "roundedMedia": 2,
+     "mediaRadius": 20,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 6,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 3601
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "canvas",
+      "ratio": 1
+     }
+    ],
+    "nav": {
+     "links": 0,
+     "fixed": true,
+     "height": 88,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "cormorant garamond",
+     "plus jakarta sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 10168,
+    "margins": {
+     "left": 24,
+     "right": 23
+    },
+    "sections": [
+     {
+      "sel": "section#hero.section-wrapper.hero-container",
+      "tag": "section",
+      "top": 0,
+      "height": 844,
+      "words": 48,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "The Living Rhythm of Last-Mile Delivery.",
+       "size": 34,
+       "tag": "h1"
+      },
+      "left": 24,
+      "right": 28,
+      "textLeft": 24,
+      "textRight": 28,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#story.section-wrapper",
+      "tag": "section",
+      "top": 844,
+      "height": 1788,
+      "words": 159,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Engineered for the Field. Designed for Human Digni",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 23,
+      "right": 23,
+      "textLeft": 24,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div",
+      "tag": "div",
+      "top": 2712,
+      "height": 193,
+      "words": 21,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "A Purpose-Built Platform for Professional Couriers",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 35,
+      "textLeft": 24,
+      "textRight": 35,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div",
+      "tag": "div",
+      "top": 2969,
+      "height": 560,
+      "words": 20,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Direct Vendor-to-Courier Protocol",
+       "size": 30,
+       "tag": "h3"
+      },
+      "left": 23,
+      "right": 23,
+      "textLeft": 64,
+      "textRight": 74,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": true
+     },
+     {
+      "sel": "div",
+      "tag": "div",
+      "top": 3601,
+      "height": 2147,
+      "words": 191,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Direct Onboarding & Identity",
+       "size": 22,
+       "tag": "h3"
+      },
+      "left": 60,
+      "right": 60,
+      "textLeft": 60,
+      "textRight": 60,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.pin-spacer",
+      "tag": "div",
+      "top": 5891,
+      "height": 2163,
+      "words": 82,
+      "media": 0,
+      "middle": 37,
+      "heading": {
+       "text": "Onboarding & Rider Identity",
+       "size": 32,
+       "tag": "h3"
+      },
+      "left": 48,
+      "right": 0,
+      "textLeft": 48,
+      "textRight": -113,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.download-grid",
+      "tag": "div",
+      "top": 8198,
+      "height": 1182,
+      "words": 63,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Equip Your Transit.",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 51,
+      "textLeft": 24,
+      "textRight": 51,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.partner-box",
+      "tag": "div",
+      "top": 9460,
+      "height": 419,
+      "words": 31,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Merchant & Fleet Partners",
+       "size": 32,
+       "tag": "h3"
+      },
+      "left": 80,
+      "right": 86,
+      "textLeft": 80,
+      "textRight": 86,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 9943,
+      "height": 145,
+      "words": 16,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 24,
+      "right": 28,
+      "textLeft": 24,
+      "textRight": 28,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 9128,
+      "height": 388
+     }
+    ],
+    "h1s": [
+     {
+      "text": "The Living Rhythm of Last-Mile Delivery.",
+      "size": 34,
+      "top": 160,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 24,
+      "n": 16
+     },
+     {
+      "x": 60,
+      "n": 14
+     },
+     {
+      "x": 48,
+      "n": 2
+     },
+     {
+      "x": 80,
+      "n": 2
+     },
+     {
+      "x": 96,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 36,
+    "bodySize": 17,
+    "stage": true,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "15 different font sizes (13, 14, 15, 16, 17, 18, 19, 20, 22, 30, 32, 36, 49, 52, 94).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "few-pictures",
+   "width": 1440,
+   "message": "Only 2 picture(s) on the page (2 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.",
+   "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "pinned-over-picture",
+   "width": 1440,
+   "message": "Pinned large text slides across pictures while the page scrolls: \"The Core Sequence of Every Shift.\" (screen 6, 100% over a picture); \"Dispatch & Field Navigation\" (screen 6, 100% over a picture)",
+   "fix": "Jurors read a pinned title crossing drawings or photographs as a collision. Keep the pictures in the column the title does not occupy, or unpin it.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "long-pin",
+   "width": 1440,
+   "message": "The same large text stays on screen for 3 screens in a row: \"The Core Sequence of Every Shift.\"",
+   "fix": "A pinned element earns two screens, and something must change at each. Shorten the run or give every screen its own content."
+  },
+  {
+   "level": "WARN",
+   "id": "blank-gap",
+   "width": 768,
+   "message": "A 432px stretch at 488px holds nothing.",
+   "fix": "Check that it is a deliberate rest (once per page at most); otherwise close it to the normal section gap.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "untitled-section",
+   "width": 768,
+   "message": "A section carries text but no heading: section#story.section-wrapper at 1024px.",
+   "fix": "Name it with a short heading unless it is the continuation of the section above."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\sazee\\OneDrive\\Desktop\\freska website\\.taste-skill\\audit\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\sazee\\OneDrive\\Desktop\\freska website\\.taste-skill\\audit\\desktop-page-01.jpg",
+    "C:\\Users\\sazee\\OneDrive\\Desktop\\freska website\\.taste-skill\\audit\\desktop-page-02.jpg",
+    "C:\\Users\\sazee\\OneDrive\\Desktop\\freska website\\.taste-skill\\audit\\desktop-page-03.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\sazee\\OneDrive\\Desktop\\freska website\\.taste-skill\\audit\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\sazee\\OneDrive\\Desktop\\freska website\\.taste-skill\\audit\\tablet-page-01.jpg",
+    "C:\\Users\\sazee\\OneDrive\\Desktop\\freska website\\.taste-skill\\audit\\tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\sazee\\OneDrive\\Desktop\\freska website\\.taste-skill\\audit\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\sazee\\OneDrive\\Desktop\\freska website\\.taste-skill\\audit\\mobile-page-01.jpg",
+    "C:\\Users\\sazee\\OneDrive\\Desktop\\freska website\\.taste-skill\\audit\\mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

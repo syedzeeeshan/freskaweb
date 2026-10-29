@@ -1,0 +1,51 @@
+:root {
+  /* Environment Color Tokens */
+  --stone-canvas: #F5F4F0;
+  --stone-surface: #EDECE7;
+  --stone-border: rgba(18, 17, 16, 0.12);
+  --stone-shadow: rgba(18, 17, 15, 0.08);
+  --editorial-charcoal: #121110;
+  --editorial-muted: #383632;
+  --editorial-subtle: #48453F;
+
+  /* Dark Cinematic Environment */
+  --obsidian: #050507;
+  --obsidian-surface: #0D0E12;
+  --obsidian-card: #12131A;
+  --obsidian-border: rgba(255, 255, 255, 0.08);
+  --numeral-white: #FFFFFF;
+  --water-specular: rgba(220, 240, 255, 0.65);
+  --water-abyss: #030406;
+
+  /* Freska Brand Accent Tokens */
+  --freska-mint: #00D084;
+  --freska-ocean: #0284C7;
+  --freska-amber: #F59E0B;
+  --freska-crimson: #EF4444;
+  --freska-deep-navy: #0A192F;
+  --freska-slate: #1E293B;
+
+  /* Typography Stacks */
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  /* Fluid Spacing */
+  --space-unit: clamp(1rem, 1.5vw, 1.75rem);
+  --space-2xs: calc(var(--space-unit) * 0.25);
+  --space-xs: calc(var(--space-unit) * 0.5);
+  --space-sm: calc(var(--space-unit) * 0.75);
+  --space-md: var(--space-unit);
+  --space-lg: calc(var(--space-unit) * 1.5);
+  --space-xl: calc(var(--space-unit) * 2.5);
+  --space-2xl: calc(var(--space-unit) * 4);
+
+  /* Easing curves */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out-cubic: cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-smooth: cubic-bezier(0.25, 1, 0.5, 1);
+
+  /* Transitions */
+  --transition-fast: 0.2s var(--ease-smooth);
+  --transition-medium: 0.4s var(--ease-out-expo);
+  --transition-slow: 0.8s var(--ease-out-expo);
+}
