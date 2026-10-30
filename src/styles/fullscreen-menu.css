@@ -1,0 +1,187 @@
+/* Fullscreen Editorial Navigation Overlay Styles */
+
+.fullscreen-menu-overlay {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  background-color: rgba(5, 5, 7, 0.96);
+  backdrop-filter: blur(28px);
+  -webkit-backdrop-filter: blur(28px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: clamp(2rem, 4vw, 4.5rem);
+  box-sizing: border-box;
+  color: #F5F4F0;
+  overflow: hidden;
+  animation: menuFadeIn 0.35s var(--ease-out-expo) forwards;
+}
+
+/* Subtle sculptural background logo watermark in menu */
+.fullscreen-menu-overlay::before {
+  content: '';
+  position: absolute;
+  right: -5%;
+  bottom: -5%;
+  width: 55vw;
+  height: 55vw;
+  max-width: 650px;
+  max-height: 650px;
+  background-image: url('/assets/images/freska_emblem_white.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.035;
+  pointer-events: none;
+  z-index: 0;
+}
+
+@keyframes menuFadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.99);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Header bar inside menu */
+.menu-top-bar {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.menu-brand-logo {
+  height: 48px;
+  width: auto;
+  max-width: 260px;
+  object-fit: contain;
+  display: block;
+}
+
+.btn-menu-close {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.04);
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.25s var(--ease-smooth);
+}
+
+.btn-menu-close:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.4);
+  transform: rotate(90deg);
+}
+
+/* Nav links list */
+.menu-nav-stage {
+  position: relative;
+  z-index: 10;
+  margin-block: auto;
+  padding-block: 2rem;
+}
+
+.menu-nav-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1rem, 2.2vh, 2rem);
+}
+
+.menu-nav-item {
+  overflow: hidden;
+}
+
+.menu-nav-link {
+  display: inline-flex;
+  align-items: baseline;
+  gap: clamp(1rem, 2.5vw, 2.5rem);
+  text-decoration: none;
+  color: #F5F4F0;
+  font-family: var(--font-serif);
+  font-size: clamp(2.25rem, 5vw, 4.5rem);
+  font-weight: 300;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  transition: all 0.3s var(--ease-out-expo);
+}
+
+.menu-nav-num {
+  font-family: var(--font-sans);
+  font-size: clamp(0.875rem, 1.1vw, 1.125rem);
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: rgba(255, 255, 255, 0.35);
+  transition: color 0.3s ease;
+}
+
+.menu-nav-label {
+  transition: transform 0.3s var(--ease-out-expo);
+}
+
+.menu-nav-arrow {
+  color: var(--freska-mint);
+  opacity: 0;
+  transform: translateX(-10px);
+  transition: all 0.3s var(--ease-out-expo);
+}
+
+.menu-nav-link:hover {
+  color: #FFFFFF;
+}
+
+.menu-nav-link:hover .menu-nav-num {
+  color: var(--freska-mint);
+}
+
+.menu-nav-link:hover .menu-nav-label {
+  transform: translateX(12px);
+  font-style: italic;
+}
+
+.menu-nav-link:hover .menu-nav-arrow {
+  opacity: 1;
+  transform: translateX(16px);
+}
+
+/* Footer info inside menu */
+.menu-footer-bar {
+  position: relative;
+  z-index: 10;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  font-family: var(--font-sans);
+  font-size: 0.8125rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.menu-email-link {
+  color: var(--freska-mint);
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.2s ease;
+}
+
+.menu-email-link:hover {
+  text-decoration: underline;
+  opacity: 0.9;
+}

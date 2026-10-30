@@ -54,8 +54,8 @@ export const DownloadSection: React.FC = () => {
         </div>
 
         {/* Right Columns: Mobile Device Mockup */}
-        <div style={{ display: 'flex', justifyContent: 'center' }} data-reveal>
-          <div style={{ width: '100%', maxWidth: '340px', aspectRatio: '9 / 18', borderRadius: '40px', padding: '1.25rem', background: '#12131A', border: '3px solid #232533', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', boxSizing: 'border-box' }}>
+        <div className="download-mockup-wrapper" data-reveal>
+          <div className="phone-device-mockup">
             {/* Phone Top Notch */}
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '0 0.5rem', fontSize: '0.8125rem', color: 'rgba(255,255,255,0.7)' }}>
               <span>09:41</span>

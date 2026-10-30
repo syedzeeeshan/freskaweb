@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Menu, ArrowUpRight } from 'lucide-react';
 
 interface HeaderProps {
@@ -7,25 +7,62 @@ interface HeaderProps {
 }
 
 export const Header: React.FC<HeaderProps> = ({ onOpenMenu, onScrollTo }) => {
+  const [isDarkTheme, setIsDarkTheme] = useState(false);
+
+  useEffect(() => {
+    // Observe body class changes to detect theme-dark
+    const observer = new MutationObserver(() => {
+      setIsDarkTheme(document.body.classList.contains('theme-dark'));
+    });
+
+    observer.observe(document.body, { attributes: true, attributeFilter: ['class'] });
+    setIsDarkTheme(document.body.classList.contains('theme-dark'));
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
-    <header className="site-header">
-      {/* Brand Wordmark */}
-      <div className="header-brand" onClick={() => onScrollTo('#hero')}>
-        <span>Freska</span>
+    <header className="site-header" role="banner">
+      {/* Official Freska Brand Identity */}
+      <div 
+        className="header-brand-wrap" 
+        onClick={() => onScrollTo('#hero')}
+        role="button"
+        tabIndex={0}
+        aria-label="Freska Home"
+      >
+        <img
+          src={isDarkTheme ? '/assets/images/freska_logo_horizontal_white.png' : '/assets/images/freska_logo_horizontal_black.png'}
+          alt="Freska — Fresh Meat & Seafood Delivery"
+          className="header-official-logo"
+        />
       </div>
 
-      {/* Center Platform Status */}
+      {/* Center Platform Status Pill */}
       <div className="header-status-pill">
         <span className="status-dot" />
-        <span>Last-Mile Platform</span>
+        <span>Cold-Chain Transit Active</span>
       </div>
 
       {/* Navigation Actions */}
       <div className="header-actions">
+        {/* Desktop Quick Jump Links */}
+        <nav className="header-nav-links" aria-label="Quick Navigation">
+          <button type="button" onClick={() => onScrollTo('#story')} className="header-quick-link">
+            Story
+          </button>
+          <button type="button" onClick={() => onScrollTo('#platform')} className="header-quick-link">
+            Platform
+          </button>
+          <button type="button" onClick={() => onScrollTo('#chapters')} className="header-quick-link">
+            Chapters
+          </button>
+        </nav>
+
         <button
           onClick={() => onScrollTo('#download')}
-          className="btn-primary"
-          style={{ height: '44px', padding: '0 1.5rem', fontSize: '0.8125rem' }}
+          className="btn-primary header-cta-btn"
+          aria-label="Download Partner App"
         >
           <span>Partner App</span>
           <ArrowUpRight size={14} />

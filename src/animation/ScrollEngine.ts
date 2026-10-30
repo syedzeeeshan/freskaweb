@@ -36,8 +36,8 @@ export function initScrollEngine(engine: ThreeEngine): ScrollController {
     };
 
     gsap.ticker.add(tickerUpdate);
-    // lagSmoothing evaluated: 500ms max lag, 33ms adjust to prevent frame explosion during tab suspension
-    gsap.ticker.lagSmoothing(500, 33);
+    // Disable GSAP lag smoothing to ensure frame-accurate sync between Lenis and ScrollTrigger
+    gsap.ticker.lagSmoothing(0);
   } else {
     // Under reduced motion: pure standard scroll + independent render loop
     const tickerUpdate = (time: number) => {
@@ -47,6 +47,29 @@ export function initScrollEngine(engine: ThreeEngine): ScrollController {
   }
 
   // --- ScrollTrigger Choreography ---
+
+  // Helper to sync chapter cards and step pills
+  const syncChapterUI = (chapterIdx: number) => {
+    engine.setChapter(chapterIdx);
+
+    const chapterCards = document.querySelectorAll<HTMLElement>('.chapter-card');
+    chapterCards.forEach((card, idx) => {
+      if (idx === chapterIdx) {
+        card.classList.add('is-active');
+      } else {
+        card.classList.remove('is-active');
+      }
+    });
+
+    const stepPills = document.querySelectorAll<HTMLElement>('.chapter-step-pill');
+    stepPills.forEach((pill, idx) => {
+      if (idx === chapterIdx) {
+        pill.classList.add('is-active');
+      } else {
+        pill.classList.remove('is-active');
+      }
+    });
+  };
 
   // 1. Environmental Shift Trigger (Light Stone to Deep Obsidian)
   ScrollTrigger.create({
@@ -64,40 +87,33 @@ export function initScrollEngine(engine: ThreeEngine): ScrollController {
     }
   });
 
-  // 2. Pinned Roman Numeral Sequence (Chapters I, II, III, IV)
-  const chaptersSection = document.getElementById('chapters');
-  if (chaptersSection) {
-    ScrollTrigger.create({
-      trigger: '#chapters',
-      start: 'top top',
-      end: '+=150%',
-      pin: true,
-      scrub: 0.8,
-      onUpdate: (self) => {
-        // Divide progress into 4 chapters (0.0 - 0.25: I, 0.25 - 0.50: II, 0.50 - 0.75: III, 0.75 - 1.0: IV)
-        const chapterIdx = Math.min(3, Math.floor(self.progress * 4));
-        engine.setChapter(chapterIdx);
+  // 2. Coordinated Operational Sequence Choreography
+  ScrollTrigger.matchMedia({
+    // Desktop (>= 901px wide and >= 680px high): Coordinated Pinned Stage
+    "(min-width: 901px) and (min-height: 680px)": function() {
+      const pinTrigger = ScrollTrigger.create({
+        trigger: '#chapters',
+        start: 'top top',
+        end: '+=200%',
+        pin: true,
+        pinSpacing: true,
+        anticipatePin: 1,
+        scrub: 0.5,
+        onUpdate: (self) => {
+          // Evenly partition progress across all 4 chapters with clean transitions
+          const chapterIdx = Math.min(3, Math.floor(self.progress * 3.999));
+          syncChapterUI(chapterIdx);
+        }
+      });
+      return () => pinTrigger.kill();
+    },
 
-        // Update active chapter UI state with clean visibility toggle
-        const chapterCards = document.querySelectorAll<HTMLElement>('.chapter-card');
-        chapterCards.forEach((card, idx) => {
-          if (idx === chapterIdx) {
-            card.classList.add('is-active');
-            card.style.opacity = '1';
-            card.style.transform = 'translateY(0)';
-            card.style.pointerEvents = 'auto';
-            card.style.visibility = 'visible';
-          } else {
-            card.classList.remove('is-active');
-            card.style.opacity = '0';
-            card.style.transform = 'translateY(16px)';
-            card.style.pointerEvents = 'none';
-            card.style.visibility = 'hidden';
-          }
-        });
-      }
-    });
-  }
+    // Mobile / Tablet / Compact screens: Controlled responsive scroll without forced pinning
+    "(max-width: 900px), (max-height: 679px)": function() {
+      // Retain active chapter state; user can navigate with interactive pills
+      syncChapterUI(0);
+    }
+  });
 
   // 3. Editorial Text & Mask Reveals
   const revealElements = document.querySelectorAll('[data-reveal]');

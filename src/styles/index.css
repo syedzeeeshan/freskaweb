@@ -1,5 +1,6 @@
 @import './tokens.css';
 @import './layout.css';
+@import './fullscreen-menu.css';
 
 *, *::before, *::after {
   box-sizing: border-box;

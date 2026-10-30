@@ -1,0 +1,314 @@
+/* Freska Meat & Seafood Garden Styles */
+
+.meat-garden-container {
+  padding-top: 5rem;
+  padding-bottom: 7rem;
+}
+
+.meat-garden-header {
+  max-width: 860px;
+  margin-bottom: 2.75rem;
+}
+
+.meat-garden-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--editorial-subtle);
+  margin-bottom: 1.25rem;
+}
+
+body.theme-dark .meat-garden-eyebrow {
+  color: #B4B1A8;
+}
+
+.meat-garden-title {
+  margin-bottom: 1.25rem;
+  line-height: 1.1;
+}
+
+.meat-garden-lead {
+  font-size: clamp(1.1rem, 1.25vw, 1.25rem);
+  line-height: 1.65;
+  color: var(--editorial-muted);
+  margin-bottom: 2rem;
+  max-width: 70ch;
+}
+
+body.theme-dark .meat-garden-lead {
+  color: #D6D4CC;
+}
+
+/* Category Filter Bar */
+.meat-category-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.meat-cat-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.6rem 1.25rem;
+  border-radius: 9999px;
+  background-color: var(--stone-surface);
+  border: 1px solid var(--stone-border);
+  color: var(--editorial-charcoal);
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s var(--ease-smooth);
+}
+
+.meat-cat-btn:hover {
+  background-color: #E2E0D8;
+  transform: translateY(-1px);
+}
+
+.meat-cat-btn.is-active {
+  background-color: var(--editorial-charcoal);
+  border-color: var(--editorial-charcoal);
+  color: #FFFFFF;
+}
+
+.meat-cat-btn .cat-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.08);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.meat-cat-btn.is-active .cat-count {
+  background: rgba(255, 255, 255, 0.22);
+  color: #FFFFFF;
+}
+
+body.theme-dark .meat-cat-btn {
+  background-color: #12131A;
+  border-color: rgba(255, 255, 255, 0.1);
+  color: #FFFFFF;
+}
+
+body.theme-dark .meat-cat-btn.is-active {
+  background-color: #FFFFFF;
+  color: #050507;
+}
+
+body.theme-dark .meat-cat-btn.is-active .cat-count {
+  background: rgba(0, 0, 0, 0.15);
+  color: #050507;
+}
+
+/* Interactive 3D Spatial Canvas */
+.meat-canvas-wrapper {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  border-radius: 2rem;
+  overflow: hidden;
+  background: radial-gradient(circle at 50% 45%, #FFFFFF 0%, #F5F4F0 60%, #E8E6DF 100%);
+  border: 1px solid rgba(18, 17, 16, 0.1);
+  box-shadow: 0 25px 70px rgba(18, 17, 15, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.8);
+  cursor: grab;
+  margin-bottom: 3.5rem;
+}
+
+.meat-canvas-wrapper:active {
+  cursor: grabbing;
+}
+
+body.theme-dark .meat-canvas-wrapper {
+  background: radial-gradient(circle at 50% 45%, #141620 0%, #0A0C12 60%, #050507 100%);
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 25px 70px rgba(0, 0, 0, 0.5);
+}
+
+.meat-canvas-host {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+/* Interaction Cue Overlay */
+.interaction-cue {
+  position: absolute;
+  top: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  pointer-events: none;
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 0.65rem 1.4rem;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  font-family: var(--font-sans);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--editorial-charcoal);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+  transition: opacity 0.6s var(--ease-smooth), transform 0.6s var(--ease-smooth);
+}
+
+.interaction-cue.is-faded {
+  opacity: 0;
+  transform: translate(-50%, -10px);
+}
+
+body.theme-dark .interaction-cue {
+  background: rgba(18, 19, 26, 0.88);
+  border-color: rgba(255, 255, 255, 0.15);
+  color: #FFFFFF;
+}
+
+/* Canvas Footer Bar */
+.meat-canvas-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1.25rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+  pointer-events: none;
+  background: linear-gradient(to top, rgba(245, 244, 240, 0.85) 0%, transparent 100%);
+  font-family: var(--font-sans);
+  font-size: 0.8125rem;
+  box-sizing: border-box;
+}
+
+body.theme-dark .meat-canvas-footer {
+  background: linear-gradient(to top, rgba(5, 5, 7, 0.9) 0%, transparent 100%);
+}
+
+.live-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--freska-mint);
+  box-shadow: 0 0 10px var(--freska-mint);
+  display: inline-block;
+}
+
+.garden-specs {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  color: var(--editorial-muted);
+  font-weight: 500;
+}
+
+.spec-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+body.theme-dark .garden-specs {
+  color: #A8A59C;
+}
+
+/* Three Pillars Card Grid */
+.meat-pillars-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.meat-pillar-card {
+  padding: 2.25rem;
+  border-radius: 1.25rem;
+  background-color: var(--stone-surface);
+  border: 1px solid var(--stone-border);
+  transition: transform 0.3s ease;
+}
+
+.meat-pillar-card:hover {
+  transform: translateY(-4px);
+}
+
+body.theme-dark .meat-pillar-card {
+  background-color: #0D0E12;
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.pillar-num {
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #00D084;
+  margin-bottom: 0.75rem;
+  display: block;
+}
+
+.pillar-title {
+  font-family: var(--font-serif);
+  font-size: 1.65rem;
+  font-weight: 400;
+  color: var(--editorial-charcoal);
+  margin-bottom: 0.75rem;
+  line-height: 1.2;
+}
+
+body.theme-dark .pillar-title {
+  color: #FFFFFF;
+}
+
+.pillar-desc {
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: var(--editorial-muted);
+}
+
+body.theme-dark .pillar-desc {
+  color: #C2C0B8;
+}
+
+/* Responsive adjustments */
+@media (max-width: 960px) {
+  .meat-pillars-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .meat-canvas-wrapper {
+    height: 480px;
+  }
+  .garden-specs {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .meat-canvas-wrapper {
+    height: 400px;
+    border-radius: 1.25rem;
+  }
+  .interaction-cue {
+    font-size: 0.75rem;
+    padding: 0.5rem 1rem;
+    width: 90%;
+    justify-content: center;
+  }
+}
